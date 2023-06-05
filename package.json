@@ -1,0 +1,28 @@
+{
+  "name": "chrome-extensions",
+  "version": "1.0.0",
+  "description": "Chrome extension practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c",
+    "start": "rollup -c -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msoueilem/chrome-extensions.git"
+  },
+  "keywords": [
+    "chrome"
+  ],
+  "author": "Soueilem",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/msoueilem/chrome-extensions/issues"
+  },
+  "homepage": "https://github.com/msoueilem/chrome-extensions#readme",
+  "devDependencies": {
+    "rollup": "^3.23.1",
+    "rollup-plugin-chrome-extension": "^3.6.12"
+  }
+}
